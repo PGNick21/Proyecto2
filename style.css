@@ -1,0 +1,716 @@
+@font-face {
+    font-family: Bai;
+    src: url('./Bai_Jamjuree/BaiJamjuree-SemiBold.ttf'); /*Los H1 */
+}
+
+@font-face {
+    font-family: Bai2;
+    src: url('./Bai_Jamjuree/BaiJamjuree-Regular.ttf'); /*Los p */
+}
+
+@font-face {
+    font-family: Bai3;
+    src: url('./Bai_Jamjuree/BaiJamjuree-Medium.ttf'); /*Los botones */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.papamobile{
+    display: none;
+}
+
+.firstmobile{
+    display: none;
+}
+
+.h1firstmobile{
+    display: none;
+}
+
+.h4firstmobile{
+    display: none;
+}
+
+.secondmobile{
+    display: none;
+}
+
+.h2secndmobile{
+    display: none;
+}
+
+.h4secndmobile{
+    display: none;
+}
+
+.third2mobile{
+    display: none;
+}
+
+.h3thirdmobile{
+    display: none;
+}
+
+.h5thirdmobile{
+    display: none;
+}
+
+.h7thirdmobile{
+    display: none;
+}
+
+.h4thirdmobile{
+    display: none;
+}
+
+.h6thirdmobile{
+    display: none;
+}
+
+.h8thirdmobile{
+    display: none;
+}
+
+.h4fourthmobile{
+    display: none;
+}
+
+.h4fifthmobile{
+    display: none;
+}
+
+.h4sixthmobile{
+    display: none;
+}
+
+.h6sixthmobile{
+    display: none;
+}
+
+.h9sixthmobile{
+    display: none;
+}
+
+.h4seventhmobile{
+    display: none;
+}
+
+/* Desktop */
+h1{
+    font-family: Bai;
+    color: #4c545d;
+}
+
+h2, h3{
+    font-family: Bai;
+    color: #4c545d;
+}
+
+p{
+    font-size: 18px;
+    font-family: Bai2;
+    color: #9fabb2;
+}
+
+a{
+    font-family: Bai3;
+}
+
+header{
+    background-image: url(./images/bg-header-desktop.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 320px;
+    background-size: cover;
+}
+
+.img1{
+    margin-top: 80px;
+    width: 125px;
+    height: 125px;
+}
+
+.first{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h1first{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.button{
+    display: flex;
+    margin-top: 50px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: solid 3px hsl(172, 64%, 37%);
+    color: white;
+    font-family: Bai;
+    font-size: 15px;
+    border-radius: 70px;
+    background-color: hsl(171, 66%, 44%);
+    width: 200px;
+    height: 60px;
+}
+
+.button1:active{
+    background-color:  hsl(171, 72%, 53%);
+}
+
+.button2:active{
+    background-color: hsl(233, 93%, 73%);
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 70px;
+    color: white;
+    font-family: Bai;
+    font-size: 15px;
+    border-bottom: solid 3px hsl(233, 45%, 43%);
+    background-color: hsl(233, 100%, 69%);
+    width: 200px;
+    height: 60px;
+}
+
+.second{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img2{
+    margin-left: -30px;
+    margin-top: 100px;
+    width: 752px;
+    height: 572px;
+}
+
+.third{
+    display: flex;
+}
+
+.third2{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.fourth{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h1fourth{
+    display: flex;
+}
+
+.h4fourth{
+    display: flex;
+}
+
+
+.img3{
+    margin-top: 50px;
+    width: 905px;
+    height: 575px;
+}
+
+.fifth{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sixth{
+   display: flex; 
+   justify-content: center;
+   text-align: center;
+   margin-top: 90px;
+   gap: 50px;
+}
+
+.sixth p{
+    margin-top: 20px;
+}
+
+.imagen{
+    margin-bottom: 30px;
+}
+
+.imagenes{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.seventh{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.eight{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(238, 234, 234);
+    margin-top: 200px;
+    width: 100%;
+    height: 150px;
+}
+
+.papa{
+    display: flex;
+    flex-direction: row;
+    margin-right: 190px;
+    gap: 100px;
+
+}
+
+.harto{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.harto a{
+    text-decoration: none;
+    color: #4c545d;
+}
+
+.harto a:active{
+    color: hsl(171, 66%, 44%);
+}
+
+
+.img7{
+    width: 50px;
+    height: 50px;
+}
+
+.img9{
+    display: flex;
+    gap: 20px;
+}
+
+/* responsive tablet */
+@media (max-width:1166px) and (min-width:800px){
+    .third{
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .third2{
+        margin-top: 100px;
+        margin-left: -5px;
+    }
+
+    .img2{
+        margin: 0px;
+        width: 80%;
+        height: 90%;
+    }
+
+    .fourth .img3{
+        margin: 0px;
+        width: 80%;
+        height: 90%;
+    }
+
+    .h4fourth{
+        display: flex;
+    }
+
+    .fifth{
+        margin-top: 10px;
+    }
+
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .eight{
+        display: flex;
+        margin: 0px;
+        gap: 75px;
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .papa{
+        margin-right: 0px;
+        gap: 50px;
+    }
+
+    .papamobile{
+        display: none;
+    }
+
+    .firstmobile{
+        display: none;
+    }
+    
+    .h1firstmobile{
+        display: none;
+    }
+    
+    .h4firstmobile{
+        display: none;
+    }
+
+    .secondmobile{
+        display: none;
+    }
+
+    .h2secndmobile{
+        display: none;
+    }
+
+    .h4secndmobile{
+        display: none;
+    }
+
+    .h4fourthmobile{
+        display: none;
+    }
+
+    .h4fifthmobile{
+        display: none;
+    }
+
+    .h4sixthmobile{
+        display: none;
+    }
+
+    .h9sixthmobile{
+        display: none;
+    }
+
+    .h4seventhmobile{
+        display: none;
+    }
+}
+
+/* responsive celular */
+@media (max-width:800px) and (min-width:375px){
+
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button1{
+        width: 300px;
+    }
+
+    .button2{
+        width: 300px;
+    }
+
+    .h1first{
+        display: none;
+        font-size: 35px;
+    }
+
+    .h4first{
+        display: none;
+        font-size: 17px;
+    }
+
+    .firstmobile{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .h1firstmobile{
+        display: flex;
+        font-size: 35px;
+    }
+
+    .h4firstmobile{
+        display: flex;
+        font-size: 17px;
+    }
+
+    .second{
+        display: none;
+        font-size: 20px;
+    }
+
+    .secondmobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 200px;
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    .h2secndmobile{
+        display: flex;
+    }
+
+    .h4secndmobile{
+        display: flex;
+        font-size: 17px;
+    }
+    
+
+    .third{
+        display: flex;
+        margin-top: 50px;
+        font-size: 19px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .third2{
+        display: none;
+        margin-top: 100px;
+        margin-left: -5px;
+    }
+
+    .third2mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .h3thirdmobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-family: Bai;
+    }
+
+    .h5thirdmobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-family: Bai;
+    }
+    
+    .h7thirdmobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-family: Bai;
+    }
+
+    .h4thirdmobile{
+        display: flex;
+        font-size: 17px;
+        font-family: Bai2;
+    }
+
+    .h6thirdmobile{
+        display: flex;
+        font-size: 17px;
+        font-family: Bai2;
+    }
+
+    .h8thirdmobile{
+        display: flex;
+        font-size: 17px;
+        font-family: Bai2;
+    }
+
+    .img2{
+        margin: 0px;
+        width: 80%;
+        height: 90%;
+    }
+
+    .fourth{
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    .fourth .img3{
+        margin: 0px;
+        width: 80%;
+        height: 90%;
+    }
+
+    .h4fourth{
+        display: none;
+    }
+
+    .h4fourthmobile{
+        display: flex;
+    }
+
+
+    .fifth{
+        margin-top: 10px;
+    }
+
+    .h4fifth{
+        display: none;
+    }
+
+    .h4fifthmobile{
+        display: flex;
+    }
+
+
+    .sixth{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .h4sixth{
+        display: none;
+    }
+
+    .h4sixthmobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h6sixth{
+        display: none;
+    }
+
+    .h6sixthmobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h9sixth{
+        display: none;
+    }
+
+    .h9sixthmobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h4seventh{
+        display: none;
+    }
+
+    .h4seventhmobile{
+        display: flex;
+    }
+
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .eight{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        height: 650px;
+        gap: 75px;
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .papa{
+        display: none;
+    }
+
+    .papamobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        text-decoration: none;
+    }
+
+    .papamobile a{
+        color: #4c545d;
+        text-decoration: none;
+    }
+
+    .papamobile a:active{
+        color: hsl(171, 66%, 44%);;
+    }
+}
